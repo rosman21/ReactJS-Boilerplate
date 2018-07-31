@@ -6,8 +6,8 @@
 
 2. Run
 
-`npm run build:start`
+`npm run start:dev`
 
 3. Navigate to
 
-`localhost:3001`
+`localhost:3005`
