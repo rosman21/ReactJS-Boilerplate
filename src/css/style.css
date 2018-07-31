@@ -1,0 +1,89 @@
+/* Space out content a bit */
+body {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.footer {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+.dropdown-item > a {
+  color: black
+}
+
+.dropdown-item > a:hover {
+  text-decoration: none;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
+.error{
+  margin-bottom:5px;
+}
+
+.hide{
+  display:none;
+}
+
+/* Customize container */
+@media (min-width: 48em) {
+  .container {
+    max-width: '46rem';
+  }
+}
+.container-narrow > hr {
+  margin: 2rem 0;
+}
+.margin20top{
+  margin-top: 20px;
+}
+
+a, button{
+  cursor: pointer;
+}
+
+
+button a{
+  color:white;
+}
+
+button a:hover{
+  color:white;
+  text-decoration: none;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 2rem;
+  }
+}

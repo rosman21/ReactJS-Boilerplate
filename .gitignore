@@ -1,0 +1,9 @@
+/node_modules
+.vscode
+.idea
+.DS_Store
+/public
+./node_modules
+./public
+public
+node_modules
